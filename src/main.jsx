@@ -2,10 +2,12 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
-import HelloWorld from "./hello-world.jsx";
+import Greeting from "./Greeting.jsx";
+import { FavouriteFood } from "./FavouriteFood.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <HelloWorld />
+    <Greeting />
+    <FavouriteFood />
   </StrictMode>
 );
